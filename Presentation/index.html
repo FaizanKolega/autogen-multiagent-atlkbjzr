@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolega Registration</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 400px;
+            margin: auto;
+        }
+        h1 {
+            color: #ff758c;
+            margin-bottom: 20px;
+        }
+        input, button {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+        input {
+            background: #fff;
+        }
+        button {
+            background: #ff758c;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #ff5757;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Register at Kolega</h1>
+        <form>
+            <input type="text" placeholder="Username" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
